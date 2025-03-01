@@ -1,8 +1,10 @@
 pipeline {
     agent any 
-    stages('build') {
-        steps{
+    stages('Build') {
+        stage{
+            steps{
             sh 'echo "Buid Competed."'
+        }
         }
     }
 }
